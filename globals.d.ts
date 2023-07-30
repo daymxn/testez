@@ -64,7 +64,7 @@ declare global {
 		/**
 		 * Adds a custom matcher
 		 */
-		extend(matchers: Partial<CustomMatchers>): void;
+		extend: (matchers: Partial<CustomMatchers>) => void;
 	};
 
 	/**
